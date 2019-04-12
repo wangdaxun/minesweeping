@@ -1,0 +1,111 @@
+*{
+	padding:0;
+	margin:0;
+	list-style: none;
+}
+html,
+body{
+	width: 100%;
+	height: 100%;
+	font-size: 16px;
+	background: pink;
+}
+.btn{
+	position: relative;
+	width:100px;
+	height: 50px;
+	left: 10%;
+	top: 10%;
+	
+}
+.btn button{
+	width:100%;
+	height: 100%;
+	border-radius: 10px;
+	background: #B0DBF5;
+	font-weight: 700;
+	font-size: 1.2em;
+	color:#fff;
+}
+.checkerboard{
+	position: relative;
+	/*display: none;*/
+	width:501px;
+	height: 600px;
+	left:30%;
+	top:10%;
+}
+.surplus{
+	width: 100%;
+	height: 100px;
+	line-height: 100px;
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 600;
+	color:#fff;
+}
+.main{
+	width: 100%;
+	height: 500px;
+}
+.main li{
+	width: 49px;
+	height: 49px;
+	border-left: 1px solid #000;
+	border-bottom: 1px solid #000;
+	float: left;
+	opacity:1;
+}
+.main ul:first-child li{
+	border-top: 1px solid#000;
+}
+.main ul li:last-child{
+	border-right: 1px solid#000;
+}
+.main ul li{
+	text-align: center;
+	line-height: 49px;
+	font-weight: 600;
+	color:#000;
+}
+.click{
+	background: #ccc;
+}
+.bs{
+	background: url(img/boom.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+	width: 100%;
+	height: 100%;
+	display:none;
+}
+.main .rfl{
+	background: url(img/redflag.jpg) no-repeat;
+	background-size: 100% 100%;
+	background-repeat: no-repeat;
+}
+.monk{
+	position: absolute;
+	background:#102E22;
+	justify-content: center;
+	align-items: center;
+	display: none; 
+	width: 100%;
+	height: 100%;
+	opacity:0;
+	left: 0;
+	top:0;
+	z-index: 99;
+}
+.monk .bbtn{
+	position: relative;
+	top:20%;
+	width: 100px;
+	height:50px;
+	border-radius: 10px;
+	background: #0556B9;
+	font-weight: 700;
+	font-size: 1.2em;
+	color:#fff;
+	opacity: 1;
+}
